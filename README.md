@@ -21,9 +21,11 @@ pull-right => float-xs-right
 ### \<dl\> tag
 > `.dl-horizontal` has been dropped. Instead, use `.row` on `<dl>` and use grid column classes (or mixins) on its `<dt>` and `<dd>` children.
 
-### .btn-xs
+### .btn
+> Renamed .btn-default to .btn-secondary.  
 > Dropped the `.btn-xs` class entirely as `.btn-sm` is proportionally much smaller than v3’s.
 
 ```
-btn-xs => btn-sm
+btn-default => btn-secondary
+btn-xs      => btn-sm
 ```
