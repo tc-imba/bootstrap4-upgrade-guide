@@ -23,6 +23,7 @@ pull-right => float-xs-right
 
 ### .btn-xs
 > Dropped the `.btn-xs` class entirely as `.btn-sm` is proportionally much smaller than v3’s.
+
 ```
 btn-xs => btn-sm
 ```
