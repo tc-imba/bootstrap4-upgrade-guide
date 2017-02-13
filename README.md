@@ -16,3 +16,13 @@ Simply, you can use the replacement below:
 pull-left  => float-xs-left
 pull-right => float-xs-right
 ```
+## Changes of some elements
+
+### \<dl\> tag
+> `.dl-horizontal` has been dropped. Instead, use `.row` on `<dl>` and use grid column classes (or mixins) on its `<dt>` and `<dd>` children.
+
+### .btn-xs
+> Dropped the `.btn-xs` class entirely as `.btn-sm` is proportionally much smaller than v3’s.
+```
+btn-xs => btn-sm
+```
